@@ -1,0 +1,48 @@
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: black;
+    width: 80%;
+}
+
+#TitleText {
+    font-size: 1.4rem;
+    width: 80%;
+    margin: 1rem auto 0.5rem auto;
+}
+
+#iframeContainer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#SimulationIframe {
+    border: 1px solid black;
+    margin: 0 auto 0.5rem auto;
+    width: 512px;
+    height: calc(512px/(284/134));
+}
+
+#Options {
+    display: flex;
+    width: 80%;
+    margin: 1rem auto 0.1rem auto;
+}
+
+.option {
+    margin: 0 6rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+/* #AboutText {
+    border-bottom: 2px solid var(--orange);
+} */
+
+.option:hover {
+    border-bottom: 2px solid var(--orange);
+} 

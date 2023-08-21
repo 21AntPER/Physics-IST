@@ -1,0 +1,63 @@
+hr {
+    border: none;
+    height: 2px;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logoContainer {
+    text-align: center;
+}
+
+#accountLogo {
+
+}
+
+#title {
+
+}
+
+#formContainer {
+    border: 1px solid black;
+    align-items: center;
+    height: 99vh;
+}
+
+.field {
+
+}
+
+#loginButton {
+
+}
+
+#forgottenContainer {
+
+}
+
+#forgottenText {
+
+}
+
+#newAccountContainer {
+
+}
+
+#newAccountText {
+
+}
+
+#googleLogoWrapper {
+
+}
+
+#GoogleImage {
+
+}
+
+#GoogleText {
+
+}

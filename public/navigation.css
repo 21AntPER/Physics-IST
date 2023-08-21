@@ -1,0 +1,39 @@
+#Header, #TopicList {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+#Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28.8px;
+}
+
+#accountLogo {
+    width: calc(74px/1.25);
+    height: calc(79px/1.25);
+    cursor: pointer;
+}
+
+#TopicList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+}
+
+.topics {
+    text-align: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.topics:hover {
+    background-color: var(--orange);
+    color: white;
+}

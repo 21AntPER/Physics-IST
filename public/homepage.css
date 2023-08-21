@@ -1,0 +1,27 @@
+#AccountProgress, #AboutSection {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+#AccountProgress {
+    border: 1px solid black;
+    height: 222px;
+}
+
+#AccountProgress > *{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+#enabledMessage, #ProgressText {
+    display: none;
+}
+
+#AboutText, #UpdateText {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#UpdateText {
+    color: var(--orange);
+}
